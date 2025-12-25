@@ -11,6 +11,7 @@ The project also demonstrates:
 - A Java Graphical User Interface (GUI) for interaction
 
 The system consists of four independent gRPC services, each simulating a real-world smart device scenario:
+
 1. Smart Car:	Unary,	Accident alert system
 2. Smart Watch:	Client Streaming	Step tracking & activity summary
 3. Mobile App:	Server Streaming	Hydration reminder system
@@ -18,6 +19,7 @@ The system consists of four independent gRPC services, each simulating a real-wo
 All services are discoverable on the local network using jmDNS.
 
 Services Description:
+
 1️. Smart Car – Unary Service
 Simulates a smart car accident alert system.
 Client sends accident severity and location
